@@ -1,0 +1,36 @@
+VERSION = 1,
+
+option GauchoRaids.Enabled = {
+	type = boolean, default = false,
+	page = GauchoRaidsConfig, translation = GauchoRaids_Enabled,
+}
+
+option GauchoRaids.RaidingTime = {
+	type = integer, min = 0, max=345600, default = 24,
+	page = GauchoRaidsConfig, translation = GauchoRaids_RaidingTime,
+}
+
+option GauchoRaids.MaxRaiders = {
+	type = integer, min = 0, max=345600, default = 3,
+	page = GauchoRaidsConfig, translation = GauchoRaids_MaxRaiders,
+}
+
+option GauchoRaids.ProtectionTime = {
+	type = integer, min = 0, max=345600, default = 24,
+	page = GauchoRaidsConfig, translation = GauchoRaids_ProtectionTime,
+}
+
+option GauchoRaids.ExRaidingTime = {
+	type = integer, min = 0, max=345600, default = 24,
+	page = GauchoRaidsConfig, translation = GauchoRaids_ExRaidingTime,
+}
+
+option GauchoRaids.MeasuredIn = {
+	type = enum, numValues = 4, default = 1,
+	page = GauchoRaidsConfig, translation = GauchoRaids_MeasuredIn,
+}
+
+option GauchoRaids.ResetRaids = {
+	type = boolean, default = false,
+	page = GauchoRaidsConfig, translation = GauchoRaids_ResetRaids,
+}

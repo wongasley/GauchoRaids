@@ -1,0 +1,14 @@
+Sandbox_EN = {
+    Sandbox_GauchoRaidsConfig = "Raids config",
+    Sandbox_GauchoRaids_RaidingTime = "Raid Time",
+    Sandbox_GauchoRaids_MaxRaiders = "Max Raiders",
+    Sandbox_GauchoRaids_ExRaidingTime = "Raider Cooldown",
+    Sandbox_GauchoRaids_ProtectionTime = "Protection Time",
+    Sandbox_GauchoRaids_ResetRaids = "Reset Raids",
+    Sandbox_GauchoRaids_Enabled = "Enable Raids",
+    Sandbox_GauchoRaids_MeasuredIn = "Update Every"
+    Sandbox_GauchoRaids_MeasuredIn_option1 = "1 min",
+    Sandbox_GauchoRaids_MeasuredIn_option2 = "10 min",
+    Sandbox_GauchoRaids_MeasuredIn_option3 = "1 hour",
+    Sandbox_GauchoRaids_MeasuredIn_option4 = "1 day",
+}
